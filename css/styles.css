@@ -1,5 +1,94 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
-font-family: 'Raleway', sans-serif;
+.sait-body {
+}
+.header {
+  border: 1px solid #ececec;
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.logo-text {
+  color: #2196f3;
+}
+.header-navlist {
+}
+.list {
+}
+.header-item {
+}
+.header-link {
+}
+.link {
+}
+.header-contlist {
+}
+.header-contlist-item {
+}
+.header-mail {
+}
+.header-tel {
+}
+.hero {
+}
+.hero-text {
+}
+.hero-button {
+}
+.features {
+}
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+.features-hat {
+}
+.features-text {
+}
+.engage {
+}
+.engage-title {
+}
+.engage-list {
+}
+.engage-item {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-hat {
+}
+.team-text {
+}
+.footer {
+}
+.footer-logo {
+}
+.footer-address {
+}
+.address-list {
+}
+.address-item {
+}
+.address-link {
+}
