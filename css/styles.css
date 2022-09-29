@@ -1,17 +1,177 @@
-body {
+.sait-body {
   font-family: 'Roboto', 'Raleway', sans-serif;
+  background: #ffffff;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.logo-text {
+  color: #2196f3;
 }
 
-.sait-body {
-}
-.header {
-  border: 1px solid #ececec;
-}
-.header-navigation {
-}
 .header-logo {
-  font-family: 'Raleway';
-  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: black;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.header-link:hover {
+  color: #2196f3;
+}
+.contlist-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contlist-link:hover {
+  color: #2196f3;
+}
+.hero {
+  background: #2f303a;
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+}
+
+.features,
+.engage {
+  background: #f5f5f5;
+}
+.features-hat {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.engage-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team {
+  background: #f5f4fa;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-item {
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-hat {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -19,76 +179,44 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #000000;
+  color: #ffffff;
 }
 .logo-text {
   color: #2196f3;
 }
-.header-navlist {
-}
-.list {
-}
-.header-item {
-}
-.header-link {
-}
-.link {
-}
-.header-contlist {
-}
-.header-contlist-item {
-}
-.header-mail {
-}
-.header-tel {
-}
-.hero {
-}
-.hero-text {
-}
-.hero-button {
-}
-.features {
-}
-.features-title {
-}
-.features-list {
-}
-.features-item {
-}
-.features-hat {
-}
-.features-text {
-}
-.engage {
-}
-.engage-title {
-}
-.engage-list {
-}
-.engage-item {
-}
-.team {
-}
-.team-title {
-}
-.team-list {
-}
-.team-item {
-}
-.team-hat {
-}
-.team-text {
-}
-.footer {
-}
-.footer-logo {
-}
 .footer-address {
-}
-.address-list {
+  font-style: normal;
 }
 .address-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 .address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.filters-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
