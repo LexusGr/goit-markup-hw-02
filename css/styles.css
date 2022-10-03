@@ -126,7 +126,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background: var(--secondory-accent-color);
 }
 
