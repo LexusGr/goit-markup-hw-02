@@ -238,14 +238,16 @@ body {
   background: var(--primery-wight);
   border: 1px solid var(--primery-gray);
 }
-.progects-hat {
+.progects-link .progects-hat {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--primery-text-color);
 }
-.progects-text {
+.progects-link .progects-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
