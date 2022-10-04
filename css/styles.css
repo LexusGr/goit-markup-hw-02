@@ -257,6 +257,7 @@ body {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
+  font-style: normal;
   color: var(--primery-text-color);
 }
 .progects-link .progects-text {
