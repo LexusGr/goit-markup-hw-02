@@ -135,9 +135,9 @@ body {
 
 /* features */
 
-.features {
-  background-color: var(--primery-background-color);
-}
+/* .features {
+
+} */
 /* .features-list {
 } */
 
@@ -145,14 +145,12 @@ body {
 } */
 .features .features-title {
   font-weight: 700;
-
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features .features-text {
-  font-weight: 400;
-
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
@@ -167,9 +165,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.engage-title {
-  background-color: var(--primery-background-color);
-}
+/* .engage-title {
+} */
 
 /* team */
 .team {
@@ -258,7 +255,7 @@ body {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  font-style: normal;
+
   color: var(--primery-text-color);
 }
 .progects-link .progects-text {
